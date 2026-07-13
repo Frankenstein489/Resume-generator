@@ -6,6 +6,7 @@ Features
 
 
 15 resume templates — Alfa, Aston, Bentley, Bugatti, Corvette, Ferrari, Jaguar, Koenigsegg, Lamborghini, Lotus, Maserati, McLaren, Pagani, Porsche, and Rimac. Switch templates at any time without losing your data.
+
 Live editor — Basics, summary, and section forms on one side, with instant PDF preview.
 Drag-and-drop sections — Reorder sections and items freely (built on @dnd-kit).
 Custom sections — Add your own sections beyond the built-in ones (experience, education, projects, skills, languages, interests, awards, certifications, publications, volunteer work, references).
