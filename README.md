@@ -2,7 +2,7 @@
 
 A browser-based resume builder. Fill out your details once, pick a template, and export a polished, print-ready PDF — no account, no server-side storage, everything lives in your browser.
 
-Features
+# Features
 
 
 15 resume templates — Alfa, Aston, Bentley, Bugatti, Corvette, Ferrari, Jaguar, Koenigsegg, Lamborghini, Lotus, Maserati, McLaren, Pagani, Porsche, and Rimac. Switch templates at any time without losing your data.
@@ -30,7 +30,7 @@ Autosaving local storage — Your resume data persists locally between sessions 
 Responsive editor — Includes a mobile-friendly layout with bottom navigation.
 
 
-Tech Stack
+# Tech Stack
 
 
 Next.js 16 (App Router) + React 19 + TypeScript
@@ -52,7 +52,7 @@ motion for animations
 Tabler Icons / Phosphor Icons for iconography
 
 
-Getting Started
+# Getting Started
 
 Prerequisites
 
@@ -77,13 +77,13 @@ bashnpm run build
 npm run start
 
 
-Templates
+# Templates
 
 Each template lives in its own folder under src/lib/pdf/templates/<name>/<Name>Page.tsx and is registered in src/lib/pdf/templates/index.ts.
 
 All templates share common building blocks from src/lib/pdf/templates/shared/ (contact info, rich text, section rendering, RTL handling, page sizing, etc.), so they stay visually distinct while behaving consistently.
 
-To add a new template:
+# To add a new template:
 
 
 Create a new folder under src/lib/pdf/templates/<name>/ with a <Name>Page.tsx component.
@@ -95,10 +95,10 @@ Register the component in src/lib/pdf/templates/index.ts.
 Add a preview image at public/templates/jpg/<name>.jpg.
 
 
-Acknowledgements
+#Acknowledgements
 
 Portions of this project (schema shape, PDF template structure, and shared rendering utilities) are ported from Reactive Resume by Amruth Pillai, licensed under MIT.
 
-License
+# License
 
 This project is provided as-is for personal use.
