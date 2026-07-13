@@ -54,18 +54,18 @@ Tabler Icons / Phosphor Icons for iconography
 
 # Getting Started
 
-Prerequisites
+1. Prerequisites
 
 
 Node.js 18.18+ (or 20+ recommended)
 npm
 
 
-Installation
+2. Installation
 
 bashnpm install
 
-Development
+3. Development
 
 bashnpm run dev
 
