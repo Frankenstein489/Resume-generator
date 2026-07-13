@@ -57,27 +57,6 @@ Production Build
 bashnpm run build
 npm run start
 
-Project Structure
-
-src/
-├── app/                        # Next.js App Router pages
-│   ├── page.tsx                 # Landing page / template picker
-│   ├── editor/page.tsx          # Main editor
-│   └── editor/preview/page.tsx  # Full PDF preview
-├── components/
-│   ├── editor/                  # Editor forms, panels, and inputs
-│   ├── ui/                      # Reusable UI primitives (Button, Input, Select, etc.)
-│   └── mobile/                  # Mobile-specific components
-└── lib/
-    ├── schema/                  # Zod schemas: resume data, templates, style rules, defaults
-    ├── store/                   # Zustand store (resume.ts)
-    ├── pdf/
-    │   ├── templates/            # One folder per template (see list above)
-    │   ├── templates/shared/     # Shared primitives used across templates
-    │   ├── document.tsx          # Top-level PDF document component
-    │   ├── renderer.ts           # PDF rendering setup
-    │   └── fonts.ts               # Font list & registration
-    └── generate-pdf.tsx         # Client-side PDF blob generation
 
 Templates
 
