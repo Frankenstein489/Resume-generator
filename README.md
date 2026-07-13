@@ -1,4 +1,4 @@
-WantAResume
+# WantAResume
 
 A browser-based resume builder. Fill out your details once, pick a template, and export a polished, print-ready PDF — no account, no server-side storage, everything lives in your browser.
 
